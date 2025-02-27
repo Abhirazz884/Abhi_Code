@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector Master</title>
+    <style>
+        /*Element selector*/
+        div
+        {
+            /* background-color: red; */
+        }
+        /* class selector */
+        .red
+        {
+            background-color: red;
+        }
+        /* ID selector */
+        #green
+        {
+            background-color: green;
+        }
+        /* child selector */
+        div >p
+        {
+            color: antiquewhite;
+            background-color: aquamarine;
+        }
+        /* Descendant selector */
+        div p
+        {
+            color: aqua;
+            background-color: brown;
+        }
+        /* Universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* pseudo selector */
+        a:visited
+        {
+            color:blue;
+        }
+        a:link
+        {
+            color: greenyellow;
+        }
+        a:active
+        {
+            color: rgb(89, 69, 69);
+        }
+        a:hover
+        {
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">
+        I am div
+        <p>I am 1st external div </p>
+    </div>
+    <div id="green">
+        I am another div
+        <p>I am external div </p>
+    </div>
+    <div>
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, similique?</p>
+    </article>
+</div>
+<a href="https://www.google.com">Go to google</a>
+<a href="https://www.facebook2.com">Go to facebook</a>
+</body>
+</html>
